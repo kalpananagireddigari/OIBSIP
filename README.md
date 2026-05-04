@@ -301,7 +301,7 @@ An interactive pizza ordering web application where users can select items from 
 
 ## 📸 Screenshot
 
-
+<img width="941" height="471" alt="Image" src="https://github.com/user-attachments/assets/cadb896c-535d-488c-8d99-089c5d1027f5" />
 
 
 
