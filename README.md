@@ -71,6 +71,9 @@ A simple web application that converts temperature from Celsius to Fahrenheit us
 
 
 
+
+
+
 **📄 ✅ 3. CALCULATOR**
 
 # 🧮 Simple Calculator
