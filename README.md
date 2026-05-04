@@ -102,6 +102,7 @@ A basic calculator web application that performs arithmetic operations like addi
 ## 📸 Screenshot
 
 
+<img width="960" height="480" alt="calci" src="https://github.com/user-attachments/assets/8c253904-d0ff-4ef9-945a-81f7a0e571a6" />
 
 
 
