@@ -251,7 +251,7 @@ A tribute webpage dedicated to Dr. A.P.J. Abdul Kalam highlighting his life, ach
 ## 📸 Screenshot
 
 
-
+<img width="960" height="476" alt="debute" src="https://github.com/user-attachments/assets/f10d61d3-9e7c-48bf-870f-4e915022efc7" />
 
 
 
