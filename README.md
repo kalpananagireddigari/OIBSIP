@@ -17,6 +17,7 @@ This is a personal portfolio website created using HTML and CSS. It showcases my
 - HTML
 - CSS
 
+<img width="960" height="478" alt="Image" src="https://github.com/user-attachments/assets/69dfa765-31f3-4a81-9f78-18c479c709eb" />
 ## ▶️ How to Run
 1. Download or clone the repository
 2. Open the file `portfolio.html` in your browser
