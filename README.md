@@ -51,7 +51,7 @@ A simple web application that converts temperature from Celsius to Fahrenheit us
 
 
 
-
+<img width="941" height="471" alt="Image" src="https://github.com/user-attachments/assets/2f5a7e76-f6c6-40c8-b7be-ff9e09686512" />
 
 
 
