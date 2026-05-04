@@ -149,6 +149,7 @@ A task management web app where users can add, complete, and delete tasks. Helps
 
 
 
+<img width="931" height="478" alt="todo" src="https://github.com/user-attachments/assets/e6488a98-f5fa-4a4b-af60-ec3d29764cbc" />
 
 
 
