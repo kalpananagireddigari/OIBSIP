@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do List</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      text-align: center;
+      margin-top: 80px;
+    }
+
+    .container {
+      background: white;
+      width: 350px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px gray;
+    }
+
+    input {
+      padding: 10px;
+      width: 70%;
+    }
+
+    button {
+      padding: 10px;
+      margin: 5px;
+      border: none;
+      background: #333;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background: #555;
+    }
+
+    li {
+      text-align: left;
+      margin: 10px 0;
+      padding: 8px;
+      background: #f4f4f4;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .done {
+      text-decoration: line-through;
+      color: gray;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>To-Do List</h2>
+
+    <input id="task" placeholder="Enter task">
+    <button onclick="addTask()">Add</button>
+
+    <ul id="list"></ul>
+  </div>
+
+  <script>
+    function addTask() {
+      let taskInput = document.getElementById("task");
+      let text = taskInput.value;
+
+      if (text === "") {
+        alert("Please enter a task");
+        return;
+      }
+
+      let li = document.createElement("li");
+
+      // Task text
+      let span = document.createElement("span");
+      span.innerText = text;
+
+      // Mark as complete
+      span.onclick = function() {
+        span.classList.toggle("done");
+      };
+
+      // Delete button
+      let delBtn = document.createElement("button");
+      delBtn.innerText = "X";
+      delBtn.onclick = function() {
+        li.remove();
+      };
+
+      li.appendChild(span);
+      li.appendChild(delBtn);
+
+      document.getElementById("list").appendChild(li);
+
+      taskInput.value = ""; // clear input
+    }
+  </script>
+
+</body>
+</html>
