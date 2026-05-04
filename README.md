@@ -198,6 +198,7 @@ A basic login system that validates username and password using JavaScript.
 
 ## 📸 Screenshot
 
+<img width="960" height="470" alt="login" src="https://github.com/user-attachments/assets/6effbe33-f94d-4a3d-84c3-13817b2bbd11" />
 
 
 
